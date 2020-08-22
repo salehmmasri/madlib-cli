@@ -37,7 +37,7 @@ def tellStory(storyFormat):
 def main():
     originalStoryFormat = x
     final_result = tellStory(originalStoryFormat)
-    merge(final_result)  
+    # merge(final_result)  
     input("Press Enter to end the program.")
 main()
 
