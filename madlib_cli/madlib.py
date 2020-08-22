@@ -36,9 +36,14 @@ def tellStory(storyFormat):
 
 def main():
     originalStoryFormat = x
-    tellStory(originalStoryFormat)
-    input("Press Enter to end the program.")        
-
+    final_result = tellStory(originalStoryFormat)
+    merge(final_result)  
+    input("Press Enter to end the program.")
 main()
 
-
+# def merge(words):
+#     with open("assets/madlip_cli_copy.txt",'w') as f2:
+#         const2 = f2.write(constant.format(*words))
+#     with open("assets/madlip_cli_copy.txt",'r') as f3:
+#         const3 = f3.read()
+#     return const3
